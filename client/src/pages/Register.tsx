@@ -45,7 +45,7 @@ export default function Register() {
         <div className="max-w-xl w-full space-y-8 bg-card p-8 sm:p-12 rounded-3xl shadow-2xl border border-border/50">
           <div className="text-center">
             <Link href="/" className="inline-flex items-center gap-2 text-primary font-bold text-xl mb-6">
-              <Heart size={24} className="fill-primary" /> Orpha.
+              <Heart size={24} className="fill-primary" /> Hope Bridge
             </Link>
             <h1 className="text-3xl font-display font-bold mb-2">Create an account</h1>
             <p className="text-muted-foreground">Join our community to make a difference.</p>

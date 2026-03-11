@@ -45,7 +45,7 @@ export default function Login() {
         <div className="max-w-md w-full space-y-8">
           <div className="text-center lg:text-left">
             <Link href="/" className="inline-flex items-center gap-2 text-primary font-bold text-xl mb-8">
-              <Heart size={24} className="fill-primary" /> Orpha.
+              <Heart size={24} className="fill-primary" /> Hope Bridge
             </Link>
             <h1 className="text-3xl font-display font-bold mb-2">Welcome back</h1>
             <p className="text-muted-foreground">Log in to your account to continue.</p>

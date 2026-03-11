@@ -15,7 +15,7 @@ export function Navbar() {
               <Heart className="text-white fill-white" size={20} />
             </div>
             <span className="font-display font-bold text-2xl tracking-tight text-foreground">
-              Orpha<span className="text-primary">.</span>
+              Hope <span className="text-primary">Bridge</span>
             </span>
           </Link>
 

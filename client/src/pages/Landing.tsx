@@ -35,7 +35,7 @@ export default function Landing() {
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
-            Orpha connects generous donors directly with orphanages in need. 
+            Hope Bridge connects generous donors directly with orphanages in need. 
             Whether it's essential supplies or monetary support, your contribution 
             makes an immediate, transparent impact.
           </p>
