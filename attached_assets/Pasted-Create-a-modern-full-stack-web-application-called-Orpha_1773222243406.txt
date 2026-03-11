@@ -1,0 +1,94 @@
+Create a modern full-stack web application called "OrphanCare Donate".
+
+Purpose:
+This platform connects orphanages with people who want to donate. Orphanages can post their needs, and donors can view those needs and donate items or money.
+
+Tech Stack:
+- Frontend: React + Tailwind CSS
+- Backend: Node.js with Express
+- Database: MongoDB
+- Authentication: JWT login system
+- Use clean component-based architecture.
+
+User Roles:
+1. Orphanage
+2. Donor (General Public)
+
+Authentication:
+- Separate login and signup pages
+- Role selection during registration (Orphanage or Donor)
+- Secure login system
+- Store user data in database
+
+Pages Required:
+
+1. Landing Page
+- Attractive hero section
+- Title: "Support Orphanages Near You"
+- Buttons: Login / Register
+- Brief explanation of the platform
+- Modern UI with cards and icons
+
+2. Register Page
+- Fields: Name, Email, Password
+- Role selection: Donor or Orphanage
+- If orphanage: additional fields
+  - Orphanage Name
+  - Location
+  - Contact Number
+
+3. Login Page
+- Email
+- Password
+- Redirect based on role
+
+4. Orphanage Dashboard
+After login orphanage should see:
+- Button: "Post a Need"
+- Form to post needs:
+  - Item name (Food, Clothes, Books etc.)
+  - Quantity
+  - Description
+  - Urgency level
+- List of all posted needs
+- Status (Pending / Fulfilled)
+
+5. Donor Dashboard
+- Display all orphanage needs in card layout
+- Each card should show:
+  - Orphanage name
+  - Item needed
+  - Quantity
+  - Description
+  - Donate button
+
+6. Donation Page
+- Donor can select:
+  - Donate item
+  - Donate money
+- Confirmation message
+
+UI Requirements:
+- Clean modern UI
+- Responsive design
+- Use Tailwind CSS
+- Use cards for displaying orphanage needs
+- Use icons and soft colors
+- Navigation bar with logo and logout
+
+Extra Features:
+- Search orphanages
+- Filter by location
+- Notification when need is fulfilled
+- Dashboard statistics
+
+Folder Structure:
+frontend/
+backend/
+components/
+routes/
+models/
+
+Also include sample data for testing.
+
+Make the UI look similar to modern donation platforms with a professional layout.
